@@ -4,8 +4,8 @@
 
 url: http://flowkater.github.com
 title: Be a Cool hacker
-subtitle: Ruby Rails Web Android Algorithm
-author: flowkater(@fl0wk27er)
+subtitle: Ruby Rails Web Algorithm..
+author: Your Name
 simple_search: http://google.com/search
 description:
 
@@ -19,7 +19,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email: chjw102@gmail.com
+email:
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -64,7 +64,7 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user: @fl0wk27er
+twitter_user:
 twitter_tweet_button: true
 
 # Google +1
@@ -92,4 +92,4 @@ disqus_show_comment_count: false
 google_analytics_tracking_id:
 
 # Facebook Like
-facebook_like: true
+facebook_like: false
