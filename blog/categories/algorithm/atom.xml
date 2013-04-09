@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Algorithm | Be a Cool hacker]]></title>
   <link href="http://flowkater.github.com/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://flowkater.github.com/"/>
-  <updated>2013-04-10T00:06:00+09:00</updated>
+  <updated>2013-04-10T00:07:37+09:00</updated>
   <id>http://flowkater.github.com/</id>
   <author>
     <name><![CDATA[flowkater a.k.a Fl0wk27er]]></name>
@@ -20,7 +20,7 @@
     <id>http://flowkater.github.com/blog/2013/04/08/coejeoghwadoen-eratoseuteneseuyi-ce-optimized-sieve-of-erathosthenes</id>
     <content type="html"><![CDATA[<p><em><small>현재 <a href="https://www.facebook.com/groups/BeRubyist/" title="루비스트가 되자">Be a Rubyist</a> 페이스북 그룹에서 <a href="http://euler.synap.co.kr/">오일러 프로젝트</a> 를 매주 수요일 저녁 7시에 모여서 같이 <a href="http://xper.org/wiki/xp/PairProgramming">페어프로그래밍</a>을 하면서 풀어나가고 있습니다. 관심있으신 분 참여해주세요!</small></em></p>
 
-<p>알고리즘에 관한 첫 포스팅인데 오늘은 <a href="http://ko.wikipedia.org/wiki/%EC%86%8C%EC%88%98">소수</a> 판별법에 대해서 얘기를 해볼까 합니다. 초기 알고리즘 문제를 접하면 가장 많이 접하는 문제인데 그 중 한 방법인 <a href="http://ko.wikipedia.org/wiki/%EC%97%90%EB%9D%BC%ED%86%A0%EC%8A%A4%ED%85%8C%EB%84%A4%EC%8A%A4%EC%9D%98_%EC%B2%B4">에라토스테네스의 체</a>라는 방법을 알아보겠습니다. 그 전에 이 방법을 고민하게 만들었던 오일러 프로젝트의 문제를 한번 살펴보겠습니다.</p>
+<p>알고리즘에 관한 첫 포스팅인데 오늘은 <a href="http://ko.wikipedia.org/wiki/%EC%86%8C%EC%88%98">소수</a> 판별법에 대해서 얘기를 해볼까 합니다. 초기 알고리즘 문제를 접하면 가장 많이 접하는 문제인데 그 중 한 방법인 <a href="http://ko.wikipedia.org/wiki/%EC%97%90%EB%9D%BC%ED%86%A0%EC%8A%A4%ED%85%8C%EB%84%A4%EC%8A%A4%EC%9D%98_%EC%B2%B4">에라토스테네스의 체</a>라는 방법을 알아보겠습니다. 그 전에 이 방법을 고민하게 만들었던 오일러 프로젝트의 문제를 한번 살펴보겠습니다. <!-- more --></p>
 
 <h2>Problem 10</h2>
 
