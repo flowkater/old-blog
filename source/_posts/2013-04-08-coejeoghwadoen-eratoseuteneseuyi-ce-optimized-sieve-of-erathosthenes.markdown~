@@ -3,8 +3,8 @@ layout: post
 title: "최적화된 에라토스테네스의 체 (Optimized sieve of Erathosthenes)"
 date: 2013-04-08 13:32
 comments: true
-categories: Algorithm
-published: true
+categories: Algorithmgktl
+published: false
 ---
 
 *<small>현재 [Be a Rubyist](https://www.facebook.com/groups/BeRubyist/ "루비스트가 되자") 페이스북 그룹에서 [오일러 프로젝트](http://euler.synap.co.kr/) 를 매주 수요일 저녁 7시에 모여서 같이 [페어프로그래밍](http://xper.org/wiki/xp/PairProgramming)을 하면서 풀어나가고 있습니다. 관심있으신 분 참여해주세요!</small>* 

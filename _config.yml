@@ -4,10 +4,10 @@
 
 url: http://flowkater.github.com
 title: Be a Cool hacker
-subtitle: Ruby Rails Web Algorithm..
-author: Your Name
+subtitle: 
+author: flowkater a.k.a Fl0wk27er
 simple_search: http://google.com/search
-description:
+description: 철저히 쿨해지고 싶은 견습 해커의 즐거운 해킹 얘기
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -92,4 +92,4 @@ disqus_show_comment_count: false
 google_analytics_tracking_id:
 
 # Facebook Like
-facebook_like: false
+facebook_like: true
