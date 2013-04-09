@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Algorithm | Be a Cool hacker]]></title>
+  <link href="http://flowkater.github.com/blog/categories/algorithm/atom.xml" rel="self"/>
+  <link href="http://flowkater.github.com/"/>
+  <updated>2013-04-09T12:55:44+09:00</updated>
+  <id>http://flowkater.github.com/</id>
+  <author>
+    <name><![CDATA[flowkater a.k.a Fl0wk27er]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[최적화된 에라토스테네스의 체 (Optimized sieve of Erathosthenes)]]></title>
+    <link href="http://flowkater.github.com/blog/2013/04/08/coejeoghwadoen-eratoseuteneseuyi-ce-optimized-sieve-of-erathosthenes/"/>
+    <updated>2013-04-08T13:32:00+09:00</updated>
+    <id>http://flowkater.github.com/blog/2013/04/08/coejeoghwadoen-eratoseuteneseuyi-ce-optimized-sieve-of-erathosthenes</id>
+    <content type="html"><![CDATA[<p><em><small>현재 <a href="https://www.facebook.com/groups/BeRubyist/" title="루비스트가 되자">Be a Rubyist</a> 페이스북 그룹에서 <a href="http://euler.synap.co.kr/">오일러 프로젝트</a> 를 매주 수요일 저녁 7시에 모여서 같이 <a href="http://xper.org/wiki/xp/PairProgramming">페어프로그래밍</a>을 하면서 풀어나가고 있습니다. 관심있으신 분 참여해주세요!</small></em></p>
+
+<p>알고리즘에 관한 첫 포스팅인데 오늘은 <a href="http://ko.wikipedia.org/wiki/%EC%86%8C%EC%88%98_(%EC%88%98%EB%A1%A0">소수</a>) 판별법에 대해서 얘기를 해볼까 합니다. 초기 알고리즘 문제를 접하면 가장 많이 접하는 문제인데 그 중 한 방법인 <a href="http://ko.wikipedia.org/wiki/%EC%97%90%EB%9D%BC%ED%86%A0%EC%8A%A4%ED%85%8C%EB%84%A4%EC%8A%A4%EC%9D%98_%EC%B2%B4">에라토스테네스의 체</a>라는 방법을 알아보겠습니다. 그 전에 이 방법을 고민하게 만들었던 오일러 프로젝트의 문제를 한번 살펴보겠습니다.</p>
+
+<h2>Problem 10</h2>
+
+<p><em>10 이하의 소수를 모두 더하면 2 + 3 + 5 + 7 = 17 이 됩니다. 이백만(2,000,000) 이하 소수의 합은 얼마입니까?</em></p>
+
+<p>굉장히 심플한 문제이고 n 이 소수인지 아닌지 판별하기 위해서 가장 심플한 아이디어는 2부터 n-1 까지 모든 수를 나눠서 나눠지는 숫자가 없으면 소수입니다. 간단히 볼까요?</p>
+
+<p>```ruby
+def is_prime?(n)</p>
+
+<pre><code>(2..n-1).each{|i| return false if n % i == 0}
+true
+</code></pre>
+
+<p>end
+```</p>
+
+<p>하지만 이런 식으로 판별을 하게 될 경우 2,000,000 까지 모든 숫자를 확인한다면 시간은 굉장히 오래걸리게 됩니다. 그럼 이걸 어떻게 좀 더 최적화할 수 있을까요? 바로 다음 정리를 이용해서 시간을 줄일 수 있다.</p>
+
+<h3>정리1</h3>
+
+<p><em>1 보다 큰 자연수 n 에 대하여 √n 보다 작거나 같은 모든 소수가  n을 나누지 못하면 n은 소수이다.</em></p>
+
+<h3>증명</h3>
+
+<p><small><em>증명은 대우와 귀류법을 통해서 증명할 수 있습니다.</em></small></p>
+
+<ul>
+<li><small>대우명제를 부정 -> n이 합성수이면 n은 √n보다 작거나 같은 약수를 갖지 않는다.</small></li>
+<li><small>n= a * b ( a, b 는 양의정수이고 1이 아니다)</small></li>
+<li><small>가정에 의하면 2 ≤ a ≤ b &lt; n 이다.</small></li>
+<li><small>a > √n, b > √n 이면 a * b > √n * √n 인데 이때, <em>n > n => 여기서 모순이 발생한다.</em></small></li>
+</ul>
+
+
+<blockquote><p><strong>따라서 n이 소수가 아니라면 n의 약수 중에서 √n보다 작거나 같은 소수가 존재한다. 그러므로 자연수 n이 √n 이하의 어떤 소수로도 나누어 떨어지지 않으면 n 은 소수이다.</strong></p></blockquote>
+
+<p>이와 같은 방식으로 다시 코드를 보면
+```ruby
+def is_prime?(n)</p>
+
+<pre><code>(2..Math.sqrt(n)).each{|i| return false if n % i == 0}
+true
+</code></pre>
+
+<p>end
+```</p>
+
+<p>시간 복잡도는 n-1에서 √n 으로 줄어드는 것을 알 수 있습니다.</p>
+
+<p>하지만 여전히 2,000,000개의 모든 숫자를 체크하기에는 실행속도가 꽤 오래걸리는데, 소수 판별법에도 여러가지 방법이 있는데 n 까지의 소수를 구하는 방법 중 가장 고전적인 방법인 <a href="http://ko.wikipedia.org/wiki/%EC%97%90%EB%9D%BC%ED%86%A0%EC%8A%A4%ED%85%8C%EB%84%A4%EC%8A%A4%EC%9D%98_%EC%B2%B4">에라토스테네스의 체</a> 방법을 이용해보기로 했습니다. 이 방법의 아이디어도 굉장히 심플합니다.</p>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/b/b9/Sieve_of_Eratosthenes_animation.gif" alt="에라토스체이미지" /></p>
+
+<p>위 그림을 보면 간단히 이해가 될 것입니다. <em>2부터 (1은 소수가 아니므로) n 까지 모든 숫자를 배열에 넣고 차례대로 배열의 존재 유무를 체크합니다. 그리고 배열이 존재하면 또다른 배열에다가 담고 해당 배열 인덱스의 배수는 모두 삭제합니다. 이 방법으로 해나가다보면 위와 같이 120까지의 모든 소수를 구할 수 있게 됩니다.</em></p>
+
+<p>```ruby
+def sum_of_primes(n)</p>
+
+<pre><code>sieve = Array.new(n, true) # n 까지 true 로 배열
+sieve[0] = false; sieve[1] = false # 0, 1 은 소수가 아니므로
+(2..n).each do |x|  
+    (2..n).each{|i| if x * i &lt;= n then sieve[x*i] = false else break end} if sieve[x] # 해당 인덱스가 true 이면 그 배수는 모두 false
+end
+
+primes = []
+(2..n).each{|i| primes &lt;&lt; i if sieve[i]} # true 인 인덱스만 배열에 입력
+primes.inject(:+) # 소수들의 합을 반환
+</code></pre>
+
+<p>end
+```</p>
+
+<p>그런데 이렇게 하는게 처음 방법보다 훨씬 효율적이지는 않습니다. 해당 코드를 정리1을 응용해서 조금 더 개선시킬 수 있습니다.</p>
+
+<p>```ruby
+def sum_of_primes(n)</p>
+
+<pre><code>sieve = Array.new(n, true) 
+sieve[0] = false; sieve[1] = false 
+(2..Math.sqrt(n).floor).each do |x| # √n까지만 구하면 배수는 모두 제거된다.
+    (2..n).each{|i| if x * i &lt;= n then sieve[x*i] = false else break end} if sieve[x] 
+end
+
+primes = []
+(2..n).each{|i| primes &lt;&lt; i if sieve[i]} 
+primes.inject(:+)
+</code></pre>
+
+<p>end
+```</p>
+
+<p>다시 위 에니메이션을 눈여겨 본다면, √120, 즉 10.xxx 전까지의 숫자의 배수만 체크하면 나머지는 모두 소수라는 것을 알게 됩니다.</p>
+
+<p>이로써 조금 더 개선이 되었습니다. 하지만 우리는 소수 중 <em>2</em>에 주목할 필요가 있는데 이 소수는 소수 중에 유일한 짝수가 됩니다.</p>
+
+<p>즉 2를 제외한 나머지 소수는 모두 홀수라는 거죠. 제일 처음 2를 체크하여 2의 배수를 제거하는 작업을 하는데 이때 n = 2,000,000 이라면 이것도 꽤나 시간이 걸리는 작업입니다.
+그래서 아예 처음에 배열을 반토막 낸 상태에서 초기화하고 나중에 인덱스를 맞춰서 배열에 넣어주면 훨씬 더 작업속도가 빨라지는 것을 알 수 있습니다.</p>
+
+<p>```ruby
+def sum_of_primes_opt(n)</p>
+
+<pre><code>sieve = Array.new( ( n + 1 ) / 2, true) # 반토막 낸다. (홀수만 고려)
+3.step(Math.sqrt(n).floor, 2) do |i| # 3부터 2step 씩 (3,5,..) 
+    next unless sieve[ i / 2 ] # 홀수만 고려해서 i 가 인덱스를 참조하기 때문에 반토막 낸 모든 배열 인덱스에 접근하기 위해 2를 나눠줌
+                   # 역시 false 이면 next 
+    ( i * 3 / 2 ).step( n / 2, i){ |j| sieve[j] = false} # i의 배수를 모두 false 로 만드는 작업, 2부터 시작하면 짝수를 가리키는데 짝수는 고려하지 않으니 3부터.
+                                 # 역시 반토막 낸 배열에 접근하기 위해서 2를 나눠줌. i 의 배수이기 때문에 step 이 i 만큼 증가.
+end
+
+primes = [2] # 홀수만 고려했기 때문에 2를 배열에 초기화
+1.upto((n+1)/2) do |i|
+    next unless sieve[i]
+    primes &lt;&lt; 2 * i + 1 # true 인 인덱스에 접근해서 원래 인덱스로 변환 (홀수로 변환)
+end
+primes.inject(:+)
+</code></pre>
+
+<p>end
+```</p>
+
+<p>위와 같이 코드를 작성하면 좀 더 최적화가 되었습니다. 실행속도를 비교를 해볼까요?</p>
+
+<h3>sum_of_isprime</h3>
+
+<p>실행속도: 42.xx sec
+<img src="http://img854.imageshack.us/img854/1794/sumofisprime.png" alt="sum_of_isprime" /></p>
+
+<h3>sum_of_primes</h3>
+
+<p>실행속도: 0.94xx sec
+<img src="http://imageshack.us/a/img39/975/sumofprimes.png" alt="sum_of_primes" /></p>
+
+<h3>sum_of_primes_opt</h3>
+
+<p>실행속도: 0.30xx sec
+<img src="http://imageshack.us/a/img713/9319/sumofprimesopt.png" alt="sum_of_primes_opt" /></p>
+
+<p>sum_of_isprime 은 위에서 정리1을 이용한 is_prime? 메서드를 이용해서 소수인지 판별 후 배열에 넣고 합을 구하는 메서드입니다. 실행속도가 굉장히 오래 걸리죠?</p>
+
+<p>sum_of_primes 에 비해서 sum_of_primes_opt 는 3배 정도 빨라졌네요. 마지막으로 sum_of_primes_opt 메서드를 리팩토링 해보겠습니다.</p>
+
+<p>```ruby
+def sum_of_primes_opt(n)</p>
+
+<pre><code>primes = [2]
+sieve = Array.new((n+1)/2, true)
+3.step( Math.sqrt(n).floor, 2){|i| if sieve[i/2] then (i * 3/2).step(n/2,i) {|j| sieve[j]=false} else next end}
+1.upto((n+1)/2){|i| if sieve[i] then primes &lt;&lt; 2 * i + 1 else next end}
+primes.inject(:+)
+</code></pre>
+
+<p>end
+```</p>
+
+<p><small>루비로 코딩을 하면서 제일 재밌는 부분이 바로 코드를 줄일수 있을때까지 줄여보는 재미인 것 같습니다. block 은 위대합니다..</small></p>
+
+<p>소수 판별법은 이 외에도 굉장히 여러가지가 있으며 각각에 다양한 수학적 증명도 존재합니다. <a href="http://euler.synap.co.kr/">오일러 프로젝트</a>의 문제를 풀다보면 소수 관련 문제가 많이 있는데요. 앞으로 또 풀어보면서 다양한 소수판별법으로 접근해서 풀이를 해보기로 하겠습니다. 읽어주셔서 감사합니다.</p>
+
+<p><small><em>참고</em></small></p>
+
+<ul>
+<li><small><a href="http://soyoja.com/160">soyojas님의 소수구하기알고리즘</a></small></li>
+<li><small><a href="http://blog.naver.com/PostView.nhn?blogId=cky5122&amp;logNo=80170123656&amp;categoryNo=162&amp;parentCategoryNo=-1&amp;viewDate=&amp;currentPage=&amp;postListTopCurrentPage=&amp;isAfterWrite=true">조가희님의 소수 판별 알고리즘 시간 복잡도 분석</a></small></li>
+<li><small><a href="http://hisjournal.net/blog/128">6l4ck3y3님의 소수판별알고리즘최적화</a></small></li>
+<li><small><a href="http://sirini.net/blog/737">시리니님의 소수판별알고리즘</a></small></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
