@@ -9,7 +9,7 @@ published: true
 
 *<small>현재 [Be a Rubyist](https://www.facebook.com/groups/BeRubyist/ "루비스트가 되자") 페이스북 그룹에서 [오일러 프로젝트](http://euler.synap.co.kr/) 를 매주 수요일 저녁 7시에 모여서 같이 [페어프로그래밍](http://xper.org/wiki/xp/PairProgramming)을 하면서 풀어나가고 있습니다. 관심있으신 분 참여해주세요!</small>* 
 
-알고리즘에 관한 첫 포스팅인데 오늘은 [소수](http://ko.wikipedia.org/wiki/%EC%86%8C%EC%88%98_(%EC%88%98%EB%A1%A0)) 판별법에 대해서 얘기를 해볼까 합니다. 초기 알고리즘 문제를 접하면 가장 많이 접하는 문제인데 그 중 한 방법인 [에라토스테네스의 체](http://ko.wikipedia.org/wiki/%EC%97%90%EB%9D%BC%ED%86%A0%EC%8A%A4%ED%85%8C%EB%84%A4%EC%8A%A4%EC%9D%98_%EC%B2%B4)라는 방법을 알아보겠습니다. 그 전에 이 방법을 고민하게 만들었던 오일러 프로젝트의 문제를 한번 살펴보겠습니다.
+알고리즘에 관한 첫 포스팅인데 오늘은 [소수](http://ko.wikipedia.org/wiki/%EC%86%8C%EC%88%98) 판별법에 대해서 얘기를 해볼까 합니다. 초기 알고리즘 문제를 접하면 가장 많이 접하는 문제인데 그 중 한 방법인 [에라토스테네스의 체](http://ko.wikipedia.org/wiki/%EC%97%90%EB%9D%BC%ED%86%A0%EC%8A%A4%ED%85%8C%EB%84%A4%EC%8A%A4%EC%9D%98_%EC%B2%B4)라는 방법을 알아보겠습니다. 그 전에 이 방법을 고민하게 만들었던 오일러 프로젝트의 문제를 한번 살펴보겠습니다.
 
 ## Problem 10
 *10 이하의 소수를 모두 더하면 2 + 3 + 5 + 7 = 17 이 됩니다. 이백만(2,000,000) 이하 소수의 합은 얼마입니까?*
