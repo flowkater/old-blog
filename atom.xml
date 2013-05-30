@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Be a Cool hacker]]></title>
-  <link href="http://flowkater.github.com/atom.xml" rel="self"/>
-  <link href="http://flowkater.github.com/"/>
-  <updated>2013-05-30T13:56:01+09:00</updated>
-  <id>http://flowkater.github.com/</id>
+  <link href="http://flowkater.github.io/atom.xml" rel="self"/>
+  <link href="http://flowkater.github.io/"/>
+  <updated>2013-05-30T14:03:19+09:00</updated>
+  <id>http://flowkater.github.io/</id>
   <author>
     <name><![CDATA[flowkater a.k.a Fl0wk27er]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Ruby, Rails 스터디 이전 발표 자료]]></title>
-    <link href="http://flowkater.github.com/blog/2013/05/30/be-a-rubyist-1-2/"/>
+    <link href="http://flowkater.github.io/blog/2013/05/30/be-a-rubyist-1-2/"/>
     <updated>2013-05-30T11:51:00+09:00</updated>
-    <id>http://flowkater.github.com/blog/2013/05/30/be-a-rubyist-1-2</id>
+    <id>http://flowkater.github.io/blog/2013/05/30/be-a-rubyist-1-2</id>
     <content type="html"><![CDATA[<p>그때 그때마다 발표자료를 백업해놨어야됬는데 많이 사라졌네요. 이전 발표자 분들에게 다시 보내달라고 요청은 했으나 언제 전부 업데이트 할 수 있을지..
 일단 현재 남아있는 자료만 올리겠습니다.</p>
 
@@ -26,14 +26,14 @@
 
 <h2>Be A Rubyist 해카톤 준비 전 간단한 경험 공유 - 발표자 조재우(flowkater)</h2>
 
-<script async class="speakerdeck-embed" data-id="fbb1c380aaff01306d5d2af1e312ded6" data-ratio="1.33333333333333" src="http://flowkater.github.com//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="fbb1c380aaff01306d5d2af1e312ded6" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
 
 <h2>Rails Active Record 에 관한 발표 - 발표자 김지원님</h2>
 
-<script async class="speakerdeck-embed" data-id="a6578c00ab0001306d5d2af1e312ded6" data-ratio="1.33333333333333" src="http://flowkater.github.com//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="a6578c00ab0001306d5d2af1e312ded6" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
@@ -48,9 +48,9 @@
   
   <entry>
     <title type="html"><![CDATA[자바스크립트 핵심가이드 스터디 발표 자료]]></title>
-    <link href="http://flowkater.github.com/blog/2013/05/30/javascript-study-resource/"/>
+    <link href="http://flowkater.github.io/blog/2013/05/30/javascript-study-resource/"/>
     <updated>2013-05-30T11:06:00+09:00</updated>
-    <id>http://flowkater.github.com/blog/2013/05/30/javascript-study-resource</id>
+    <id>http://flowkater.github.io/blog/2013/05/30/javascript-study-resource</id>
     <content type="html"><![CDATA[<p>현재 스터디에서 <a href="http://www.hanb.co.kr/book/look.html?isbn=978-89-7914-598-4">자바스크립트 핵심가이드</a> 스터디를 하고 있는데 어제 스터디를 마지막으로 책 스터디가 마무리되었습니다. 관련 발표자료를 공유하고 추후 자료를 더 보강해서 계속해서 업데이트 하겠습니다.</p>
 
 <!-- more -->
@@ -58,21 +58,21 @@
 
 <h2>자바스크립트 오리엔테이션 - 발표자 조재우(flowkater)</h2>
 
-<script async class="speakerdeck-embed" data-id="45b52d10aafe0130da893e97780925f0" data-ratio="1.33333333333333" src="http://flowkater.github.com//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="45b52d10aafe0130da893e97780925f0" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
 
 <h2>자바스크립트 awful&amp;bad parts - 발표자 조재우(flowkater)</h2>
 
-<script async class="speakerdeck-embed" data-id="f2709f70aafd0130f3382e483e3562d4" data-ratio="1.33333333333333" src="http://flowkater.github.com//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="f2709f70aafd0130f3382e483e3562d4" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
 
 <h2>자바스크립트 Array - 발표자 서병선님</h2>
 
-<script async class="speakerdeck-embed" data-id="cf438620aaff0130efd95a101b549cb4" data-ratio="1.33333333333333" src="http://flowkater.github.com//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="cf438620aaff0130efd95a101b549cb4" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
@@ -99,9 +99,9 @@
   
   <entry>
     <title type="html"><![CDATA[최적화된 에라토스테네스의 체 (Optimized sieve of Erathosthenes)]]></title>
-    <link href="http://flowkater.github.com/blog/2013/04/08/coejeoghwadoen-eratoseuteneseuyi-ce-optimized-sieve-of-erathosthenes/"/>
+    <link href="http://flowkater.github.io/blog/2013/04/08/coejeoghwadoen-eratoseuteneseuyi-ce-optimized-sieve-of-erathosthenes/"/>
     <updated>2013-04-08T13:32:00+09:00</updated>
-    <id>http://flowkater.github.com/blog/2013/04/08/coejeoghwadoen-eratoseuteneseuyi-ce-optimized-sieve-of-erathosthenes</id>
+    <id>http://flowkater.github.io/blog/2013/04/08/coejeoghwadoen-eratoseuteneseuyi-ce-optimized-sieve-of-erathosthenes</id>
     <content type="html"><![CDATA[<p><em><small>현재 <a href="https://www.facebook.com/groups/BeRubyist/" title="루비스트가 되자">Be a Rubyist</a> 페이스북 그룹에서 <a href="http://euler.synap.co.kr/">오일러 프로젝트</a> 를 매주 수요일 저녁 7시에 모여서 같이 <a href="http://xper.org/wiki/xp/PairProgramming">페어프로그래밍</a>을 하면서 풀어나가고 있습니다. 관심있으신 분 참여해주세요!</small></em></p>
 
 <p>알고리즘에 관한 첫 포스팅인데 오늘은 <a href="http://ko.wikipedia.org/wiki/%EC%86%8C%EC%88%98">소수</a> 판별법에 대해서 얘기를 해볼까 합니다. 초기 알고리즘 문제를 접하면 가장 많이 접하는 문제인데 그 중 한 방법인 <a href="http://ko.wikipedia.org/wiki/%EC%97%90%EB%9D%BC%ED%86%A0%EC%8A%A4%ED%85%8C%EB%84%A4%EC%8A%A4%EC%9D%98_%EC%B2%B4">에라토스테네스의 체</a>라는 방법을 알아보겠습니다. 그 전에 이 방법을 고민하게 만들었던 오일러 프로젝트의 문제를 한번 살펴보겠습니다. <!-- more --></p>
