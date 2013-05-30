@@ -4,11 +4,19 @@
         <loc>
             http://flowkater.github.com/blog/2013/04/08/coejeoghwadoen-eratoseuteneseuyi-ce-optimized-sieve-of-erathosthenes/
         </loc>
-        <lastmod>2013-04-10T00:07:27+09:00</lastmod>
+        <lastmod>2013-05-30T11:13:21+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://flowkater.github.com/blog/2013/05/30/javascript-study-resource/</loc>
+        <lastmod>2013-05-30T12:02:29+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://flowkater.github.com/blog/2013/05/30/be-a-rubyist-1-2/</loc>
+        <lastmod>2013-05-30T12:02:24+09:00</lastmod>
     </url>
     <url>
         <loc>http://flowkater.github.com/blog/archives/</loc>
-        <lastmod>2013-04-10T00:07:27+09:00</lastmod>
+        <lastmod>2013-05-30T12:02:29+09:00</lastmod>
     </url>
     <url>
         <loc>http://flowkater.github.com/robots.txt</loc>
@@ -16,6 +24,6 @@
     </url>
     <url>
         <loc>http://flowkater.github.com/</loc>
-        <lastmod>2013-04-10T00:07:27+09:00</lastmod>
+        <lastmod>2013-05-30T12:02:29+09:00</lastmod>
     </url>
 </urlset>

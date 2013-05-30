@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Algorithm | Be a Cool hacker]]></title>
-  <link href="http://flowkater.github.com/blog/categories/algorithm/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Ruby | Be a Cool hacker]]></title>
+  <link href="http://flowkater.github.com/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://flowkater.github.com/"/>
   <updated>2013-05-30T12:02:40+09:00</updated>
   <id>http://flowkater.github.com/</id>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby, Rails 스터디 이전 발표 자료]]></title>
+    <link href="http://flowkater.github.com/blog/2013/05/30/be-a-rubyist-1-2/"/>
+    <updated>2013-05-30T11:51:00+09:00</updated>
+    <id>http://flowkater.github.com/blog/2013/05/30/be-a-rubyist-1-2</id>
+    <content type="html"><![CDATA[<p>그때 그때마다 발표자료를 백업해놨어야됬는데 많이 사라졌네요. 이전 발표자 분들에게 다시 보내달라고 요청은 했으나 언제 전부 업데이트 할 수 있을지..
+일단 현재 남아있는 자료만 올리겠습니다.</p>
+
+<!-- more -->
+
+
+<h2>Be A Rubyist 해카톤 준비 전 간단한 경험 공유 - 발표자 조재우(flowkater)</h2>
+
+<script async class="speakerdeck-embed" data-id="fbb1c380aaff01306d5d2af1e312ded6" data-ratio="1.33333333333333" src="http://flowkater.github.com//speakerdeck.com/assets/embed.js"></script>
+
+
+<p>&nbsp;</p>
+
+<h2>Rails Active Record 에 관한 발표 - 발표자 김지원님</h2>
+
+<script async class="speakerdeck-embed" data-id="a6578c00ab0001306d5d2af1e312ded6" data-ratio="1.33333333333333" src="http://flowkater.github.com//speakerdeck.com/assets/embed.js"></script>
+
+
+<p>&nbsp;</p>
+
+<h2>Ruby- Block, Proc, Lambda 에 대한 - 발표자 조재우(flowkater)</h2>
+
+<p>정리중</p>
+
+<p><em><small><a href="https://www.facebook.com/groups/BeRubyist/" title="루비스트가 되자">Be a Rubyist</a> 페이스북 그룹에서 <a href="http://euler.synap.co.kr/">오일러 프로젝트</a> 를 매주 수요일 저녁 7시에 모여서 같이 <a href="http://xper.org/wiki/xp/PairProgramming">페어프로그래밍</a>을 하면서 풀어나가고 있습니다. 관심있으신 분 참여해주세요! 지금은 자바스크립트, 클라이언트 프레임워크 스터디가 진행 중입니다.</small></em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[최적화된 에라토스테네스의 체 (Optimized sieve of Erathosthenes)]]></title>
