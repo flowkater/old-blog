@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://flowkater.github.com
+url: http://flowkater.github.io
 title: Be a Cool hacker
 subtitle: 
 author: flowkater a.k.a Fl0wk27er
@@ -19,7 +19,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: chjw102@gmail.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -45,7 +45,7 @@ titlecase: true       # Converts page and post titles to titlecase
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.html]
+default_asides: [asides/about.html ,asides/recent_posts.html, asides/github.html, asides/twitter.html, asides/category_list.html]
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
@@ -58,13 +58,17 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 # ----------------------- #
 
 # Github repositories
-github_user:
-github_repo_count: 0
+github_user: flowkater
+github_repo_count: 2
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
 twitter_user: Fl0wk27er
+twitter_tweet_count: 4
+twitter_show_replies: false
+twitter_follow_button: true
+twitter_show_follower_count: false
 twitter_tweet_button: true
 
 # Google +1
@@ -93,3 +97,6 @@ google_analytics_tracking_id: UA-35035555-1
 
 # Facebook Like
 facebook_like: true
+
+# Facebook Comments
+facebook_appid: 353550678098775
