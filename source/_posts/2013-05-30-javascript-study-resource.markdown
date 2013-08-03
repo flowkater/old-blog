@@ -26,16 +26,7 @@ published: true
 <script async class="speakerdeck-embed" data-id="f77aac50b08f0130dda932ae863805fe" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 &nbsp;
-## 자바스크립트 Method(1) - 발표자 김민수님
-정리중
 
-&nbsp;
-## 자바스크립트 함수
-정리중
-
-&nbsp;
-## 자바스크립트 상속
-정리중
 
 *<small>[Be a Rubyist](https://www.facebook.com/groups/BeRubyist/ "루비스트가 되자") 페이스북 그룹에서 [오일러 프로젝트](http://euler.synap.co.kr/) 를 매주 수요일 저녁 7시에 모여서 같이 [페어프로그래밍](http://xper.org/wiki/xp/PairProgramming)을 하면서 풀어나가고 있습니다. 관심있으신 분 참여해주세요! 지금은 자바스크립트, 클라이언트 프레임워크 스터디가 진행 중입니다.</small>* 
 

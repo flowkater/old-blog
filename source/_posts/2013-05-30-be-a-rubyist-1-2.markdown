@@ -32,8 +32,6 @@ published: true
 <script async class="speakerdeck-embed" data-id="63c4fb20ab1f01303283324ccc551f9a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 &nbsp;
-## Ruby - Block, Proc, Lambda 에 대한 - 발표자 조재우(flowkater)
-정리중
 
 
 *<small>[Be a Rubyist](https://www.facebook.com/groups/BeRubyist/ "루비스트가 되자") 페이스북 그룹에서 [오일러 프로젝트](http://euler.synap.co.kr/) 를 매주 수요일 저녁 7시에 모여서 같이 [페어프로그래밍](http://xper.org/wiki/xp/PairProgramming)을 하면서 풀어나가고 있습니다. 관심있으신 분 참여해주세요! 지금은 자바스크립트, 클라이언트 프레임워크 스터디가 진행 중입니다.</small>* 
