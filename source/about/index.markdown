@@ -30,9 +30,7 @@ footer: true
 <br>
 #### 기타 블로그
 - [Rioja Vega 팀블로그 - 워드프레스](http://riojavega.wordpress.com/) - SW Maestro 4th Rioja Vega 팀블로그 
-- [잡담 블로그 - 텀블러](http://kater102.tumblr.com/) - 거의 잡담용
-- [1호 블로그 - 네이버](http://blog.naver.com/kater102) - 주로 윈도우즈 시스템 프로그래밍, 웹보안 관련 포스팅 (2011)
-- [2호 블로그 - 티스토리](http://rubykater.tistory.com/) - 포스팅 거의 없음.. (2011-2012)
+- [이전 블로그 - 네이버](http://blog.naver.com/kater102) - 주로 윈도우즈 시스템 프로그래밍, 웹보안 관련 포스팅 (2011)
 
 <br>
 #### 본인이 나온 재밌는 기사들
