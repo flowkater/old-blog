@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Ruby | Be a Cool hacker]]></title>
   <link href="http://flowkater.github.io/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://flowkater.github.io/"/>
-  <updated>2013-08-08T13:21:24+09:00</updated>
+  <updated>2013-08-09T07:36:55+09:00</updated>
   <id>http://flowkater.github.io/</id>
   <author>
     <name><![CDATA[flowkater a.k.a Fl0wk27er]]></name>
@@ -19,8 +19,8 @@
     <updated>2013-08-07T17:33:00+09:00</updated>
     <id>http://flowkater.github.io/blog/2013/08/07/ruby-and-rails-learning-resource</id>
     <content type="html"><![CDATA[<p>자칭, 타칭 만년 루비 꼴찌이지만 루비를 사랑하는 사람으로써 좀 더 많은 분들이 루비라는 언어를 쉽게 배우고 사용해보고 즐겼으면 좋겠다는 생각으로 제가 처음에 루비와 루비온레일스 웹 프레임워크를 공부하면서 봤던 자료들을 공유하고자 합니다. <!-- more --> <br/>
-그냥 개인적인 취향 문제이니 여기 자료들이 어떤 분들에게는 '좋은' 자료들이 아닐 수 있다는 것을 명심하시고 특히 어떤 책을 봐서 어떻게 공부했다는 그냥 지표로 삼으시고 자신만의 방법으로 익히고 배워나가시면 됩니다. 프로그래밍 배우기 제일 좋은 방법은 만들어보는 것이니깐요. <br/>
-아 또 여기에 제가 적어놨다고 해서 제가 그 책을 다 읽어봤다고 착각하시면 안됩니다. 프로그래밍 책을 '완독'하는 건 그렇게 효율적인 방법이 아니라는 개인적인 생각에..(사실 게을러서)</p>
+그냥 개인적인 취향 문제이니 여기 자료들이 어떤 분들에게는 &lsquo;좋은&rsquo; 자료들이 아닐 수 있다는 것을 명심하시고 특히 어떤 책을 봐서 어떻게 공부했다는 그냥 지표로 삼으시고 자신만의 방법으로 익히고 배워나가시면 됩니다. 프로그래밍 배우기 제일 좋은 방법은 만들어보는 것이니깐요. <br/>
+아 또 여기에 제가 적어놨다고 해서 제가 그 책을 다 읽어봤다고 착각하시면 안됩니다. 프로그래밍 책을 &lsquo;완독'하는 건 그렇게 효율적인 방법이 아니라는 개인적인 생각에..(사실 게을러서)</p>
 
 <h2>Ruby</h2>
 
@@ -113,7 +113,7 @@ Nettus+는 여러가지 팁이나 튜토리얼 문서가 올라오는 사이트�
 
 <h3><a href="https://www.facebook.com/groups/rubyonrailskorea/">Ruby on Rails Korea</a></h3>
 
-<p>RoRlab.org 에서 운영하는 페이스북 페이지입니다. 가입하실려면 자기소개를 준비하는 센스 ^<sup>^;</sup>
+<p>RoRlab.org 에서 운영하는 페이스북 페이지입니다. 가입하실려면 자기소개를 준비하는 센스 ^^^;
 &nbsp;</p>
 
 <h3><a href="https://www.facebook.com/groups/BeRubyist/">Be a Rubyist</a></h3>
@@ -141,35 +141,35 @@ Nettus+는 여러가지 팁이나 튜토리얼 문서가 올라오는 사이트�
 <!-- more -->
 
 
-<h2>Be A Rubyist 해카톤 준비 전 간단한 경험 공유 - 발표자 조재우(flowkater)</h2>
+<h2>Be A Rubyist 해카톤 준비 전 간단한 경험 공유 &ndash; 발표자 조재우(flowkater)</h2>
 
 <script async class="speakerdeck-embed" data-id="fbb1c380aaff01306d5d2af1e312ded6" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
 
-<h2>Rails Active Record 에 관한 발표 - 발표자 김지원님</h2>
+<h2>Rails Active Record 에 관한 발표 &ndash; 발표자 김지원님</h2>
 
 <script async class="speakerdeck-embed" data-id="a6578c00ab0001306d5d2af1e312ded6" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
 
-<h2>Rails Migration 에 대한 발표 - 발표자 변준호님</h2>
+<h2>Rails Migration 에 대한 발표 &ndash; 발표자 변준호님</h2>
 
 <script async class="speakerdeck-embed" data-id="78e995b0af230130af6d7eed166d7b22" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
 
-<h2>Rails Asset Pipeline 에 대한 발표 - 발표자 김명회님</h2>
+<h2>Rails Asset Pipeline 에 대한 발표 &ndash; 발표자 김명회님</h2>
 
 <script async class="speakerdeck-embed" data-id="a2edf830b3110130f4f676ca31124ae6" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
 
-<h2>Ruby - Data &amp; Object 요약 발표 - 발표자 임영수님</h2>
+<h2>Ruby &ndash; Data &amp; Object 요약 발표 &ndash; 발표자 임영수님</h2>
 
 <script async class="speakerdeck-embed" data-id="63c4fb20ab1f01303283324ccc551f9a" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
@@ -216,7 +216,7 @@ true
 <p><small><em>증명은 대우와 귀류법을 통해서 증명할 수 있습니다.</em></small></p>
 
 <ul>
-<li><small>대우명제를 부정 -> n이 합성수이면 n은 √n보다 작거나 같은 약수를 갖지 않는다.</small></li>
+<li><small>대우명제를 부정 &ndash;> n이 합성수이면 n은 √n보다 작거나 같은 약수를 갖지 않는다.</small></li>
 <li><small>n= a * b ( a, b 는 양의정수이고 1이 아니다)</small></li>
 <li><small>가정에 의하면 2 ≤ a ≤ b &lt; n 이다.</small></li>
 <li><small>a > √n, b > √n 이면 a * b > √n * √n 인데 이때, <em>n > n => 여기서 모순이 발생한다.</em></small></li>

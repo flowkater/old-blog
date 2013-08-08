@@ -4,7 +4,7 @@
   <title><![CDATA[Be a Cool hacker]]></title>
   <link href="http://flowkater.github.io/atom.xml" rel="self"/>
   <link href="http://flowkater.github.io/"/>
-  <updated>2013-08-08T13:21:24+09:00</updated>
+  <updated>2013-08-09T07:36:55+09:00</updated>
   <id>http://flowkater.github.io/</id>
   <author>
     <name><![CDATA[flowkater a.k.a Fl0wk27er]]></name>
@@ -19,8 +19,8 @@
     <updated>2013-08-07T17:33:00+09:00</updated>
     <id>http://flowkater.github.io/blog/2013/08/07/ruby-and-rails-learning-resource</id>
     <content type="html"><![CDATA[<p>자칭, 타칭 만년 루비 꼴찌이지만 루비를 사랑하는 사람으로써 좀 더 많은 분들이 루비라는 언어를 쉽게 배우고 사용해보고 즐겼으면 좋겠다는 생각으로 제가 처음에 루비와 루비온레일스 웹 프레임워크를 공부하면서 봤던 자료들을 공유하고자 합니다. <!-- more --> <br/>
-그냥 개인적인 취향 문제이니 여기 자료들이 어떤 분들에게는 &#8216;좋은&#8217; 자료들이 아닐 수 있다는 것을 명심하시고 특히 어떤 책을 봐서 어떻게 공부했다는 그냥 지표로 삼으시고 자신만의 방법으로 익히고 배워나가시면 됩니다. 프로그래밍 배우기 제일 좋은 방법은 만들어보는 것이니깐요. <br/>
-아 또 여기에 제가 적어놨다고 해서 제가 그 책을 다 읽어봤다고 착각하시면 안됩니다. 프로그래밍 책을 &#8216;완독&#8217;하는 건 그렇게 효율적인 방법이 아니라는 개인적인 생각에..(사실 게을러서)</p>
+그냥 개인적인 취향 문제이니 여기 자료들이 어떤 분들에게는 &lsquo;좋은&rsquo; 자료들이 아닐 수 있다는 것을 명심하시고 특히 어떤 책을 봐서 어떻게 공부했다는 그냥 지표로 삼으시고 자신만의 방법으로 익히고 배워나가시면 됩니다. 프로그래밍 배우기 제일 좋은 방법은 만들어보는 것이니깐요. <br/>
+아 또 여기에 제가 적어놨다고 해서 제가 그 책을 다 읽어봤다고 착각하시면 안됩니다. 프로그래밍 책을 &lsquo;완독&#8217;하는 건 그렇게 효율적인 방법이 아니라는 개인적인 생각에..(사실 게을러서)</p>
 
 <h2>Ruby</h2>
 
@@ -113,7 +113,7 @@ Nettus+는 여러가지 팁이나 튜토리얼 문서가 올라오는 사이트�
 
 <h3><a href="https://www.facebook.com/groups/rubyonrailskorea/">Ruby on Rails Korea</a></h3>
 
-<p>RoRlab.org 에서 운영하는 페이스북 페이지입니다. 가입하실려면 자기소개를 준비하는 센스 ^<sup>^;</sup>
+<p>RoRlab.org 에서 운영하는 페이스북 페이지입니다. 가입하실려면 자기소개를 준비하는 센스 ^^^;
 &nbsp;</p>
 
 <h3><a href="https://www.facebook.com/groups/BeRubyist/">Be a Rubyist</a></h3>
@@ -141,63 +141,63 @@ Nettus+는 여러가지 팁이나 튜토리얼 문서가 올라오는 사이트�
 매주 스터디를 진행하면서 회고를 작성중입니다. 스터디 참여 멤버분들의 피드백과 개선점, 느낌점을 그날그날 기록하여 스터디에 반영하도록 노력하고 있습니다.
 <a href="https://github.com/flowkater/ProjectEuler_kr/tree/master/scala">스칼라 스터디 회고</a></p>
 
-<h2>스칼라 스터디 오리엔테이션 - 발표자 서병선님</h2>
+<h2>스칼라 스터디 오리엔테이션 &ndash; 발표자 서병선님</h2>
 
 <script async class="speakerdeck-embed" data-id="e2608900de430130c1220eac3c9ba422" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
 
-<h2>스칼라 배열 사용하기 - 발표자 봉성주님</h2>
+<h2>스칼라 배열 사용하기 &ndash; 발표자 봉성주님</h2>
 
 <script async class="speakerdeck-embed" data-id="4352ef50de450130500d1eb25ece1fde" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
 
-<h2>스칼라 맵과 튜플 - 발표자 이경욱님</h2>
+<h2>스칼라 맵과 튜플 &ndash; 발표자 이경욱님</h2>
 
 <script async class="speakerdeck-embed" data-id="5b7d2cc0de450130c1230eac3c9ba422" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
 
-<h2>스칼라 클래스 - 발표자 김지원님</h2>
+<h2>스칼라 클래스 &ndash; 발표자 김지원님</h2>
 
 <script async class="speakerdeck-embed" data-id="43a50850dee101300cb91a5bfdd09542" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
 
-<h2>스칼라 오브젝트 - 발표자 최민기님</h2>
+<h2>스칼라 오브젝트 &ndash; 발표자 최민기님</h2>
 
 <script async class="speakerdeck-embed" data-id="7b0b7270de45013064152292094fcb41" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
 
-<h2>스칼라 패키지와 임포트 - 발표자 최민기님</h2>
+<h2>스칼라 패키지와 임포트 &ndash; 발표자 최민기님</h2>
 
 <script async class="speakerdeck-embed" data-id="8fbc7d00de4501309e464266729d3f42" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
 
-<h2>스칼라 상속 - 발표자 서병선님</h2>
+<h2>스칼라 상속 &ndash; 발표자 서병선님</h2>
 
 <script async class="speakerdeck-embed" data-id="aa33eb00de450130500d1eb25ece1fde" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
 
-<h2>스칼라 파일과 정규표현식 - 발표자 이경욱님</h2>
+<h2>스칼라 파일과 정규표현식 &ndash; 발표자 이경욱님</h2>
 
 <script async class="speakerdeck-embed" data-id="bdeac460de45013027707a89a736d299" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
 
-<h2>스칼라 Trait - 발표자 조재우(flowkater)</h2>
+<h2>스칼라 Trait &ndash; 발표자 조재우(flowkater)</h2>
 
 <script async class="speakerdeck-embed" data-id="d341cc10de45013064162292094fcb41" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
@@ -219,35 +219,35 @@ Nettus+는 여러가지 팁이나 튜토리얼 문서가 올라오는 사이트�
 <!-- more -->
 
 
-<h2>Be A Rubyist 해카톤 준비 전 간단한 경험 공유 - 발표자 조재우(flowkater)</h2>
+<h2>Be A Rubyist 해카톤 준비 전 간단한 경험 공유 &ndash; 발표자 조재우(flowkater)</h2>
 
 <script async class="speakerdeck-embed" data-id="fbb1c380aaff01306d5d2af1e312ded6" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
 
-<h2>Rails Active Record 에 관한 발표 - 발표자 김지원님</h2>
+<h2>Rails Active Record 에 관한 발표 &ndash; 발표자 김지원님</h2>
 
 <script async class="speakerdeck-embed" data-id="a6578c00ab0001306d5d2af1e312ded6" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
 
-<h2>Rails Migration 에 대한 발표 - 발표자 변준호님</h2>
+<h2>Rails Migration 에 대한 발표 &ndash; 발표자 변준호님</h2>
 
 <script async class="speakerdeck-embed" data-id="78e995b0af230130af6d7eed166d7b22" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
 
-<h2>Rails Asset Pipeline 에 대한 발표 - 발표자 김명회님</h2>
+<h2>Rails Asset Pipeline 에 대한 발표 &ndash; 발표자 김명회님</h2>
 
 <script async class="speakerdeck-embed" data-id="a2edf830b3110130f4f676ca31124ae6" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
 
-<h2>Ruby - Data &amp; Object 요약 발표 - 발표자 임영수님</h2>
+<h2>Ruby &ndash; Data &amp; Object 요약 발표 &ndash; 발표자 임영수님</h2>
 
 <script async class="speakerdeck-embed" data-id="63c4fb20ab1f01303283324ccc551f9a" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
@@ -268,28 +268,28 @@ Nettus+는 여러가지 팁이나 튜토리얼 문서가 올라오는 사이트�
 <!-- more -->
 
 
-<h2>자바스크립트 오리엔테이션 - 발표자 조재우(flowkater)</h2>
+<h2>자바스크립트 오리엔테이션 &ndash; 발표자 조재우(flowkater)</h2>
 
 <script async class="speakerdeck-embed" data-id="45b52d10aafe0130da893e97780925f0" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
 
-<h2>자바스크립트 awful&amp;bad parts - 발표자 조재우(flowkater)</h2>
+<h2>자바스크립트 awful&amp;bad parts &ndash; 발표자 조재우(flowkater)</h2>
 
 <script async class="speakerdeck-embed" data-id="f2709f70aafd0130f3382e483e3562d4" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
 
-<h2>자바스크립트 Array - 발표자 서병선님</h2>
+<h2>자바스크립트 Array &ndash; 발표자 서병선님</h2>
 
 <script async class="speakerdeck-embed" data-id="cf438620aaff0130efd95a101b549cb4" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
 
 <p>&nbsp;</p>
 
-<h2>자바스크립트 Style - 발표자 이수영님</h2>
+<h2>자바스크립트 Style &ndash; 발표자 이수영님</h2>
 
 <script async class="speakerdeck-embed" data-id="f77aac50b08f0130dda932ae863805fe" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
 
@@ -337,7 +337,7 @@ Nettus+는 여러가지 팁이나 튜토리얼 문서가 올라오는 사이트�
 <p><small><em>증명은 대우와 귀류법을 통해서 증명할 수 있습니다.</em></small></p>
 
 <ul>
-<li><small>대우명제를 부정 -> n이 합성수이면 n은 √n보다 작거나 같은 약수를 갖지 않는다.</small></li>
+<li><small>대우명제를 부정 &ndash;> n이 합성수이면 n은 √n보다 작거나 같은 약수를 갖지 않는다.</small></li>
 <li><small>n= a * b ( a, b 는 양의정수이고 1이 아니다)</small></li>
 <li><small>가정에 의하면 2 ≤ a ≤ b &lt; n 이다.</small></li>
 <li><small>a > √n, b > √n 이면 a * b > √n * √n 인데 이때, <em>n > n => 여기서 모순이 발생한다.</em></small></li>
