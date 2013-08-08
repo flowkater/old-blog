@@ -4,7 +4,7 @@
   <title><![CDATA[Be a Cool hacker]]></title>
   <link href="http://flowkater.github.io/atom.xml" rel="self"/>
   <link href="http://flowkater.github.io/"/>
-  <updated>2013-08-08T12:39:11+09:00</updated>
+  <updated>2013-08-08T12:41:34+09:00</updated>
   <id>http://flowkater.github.io/</id>
   <author>
     <name><![CDATA[flowkater a.k.a Fl0wk27er]]></name>
@@ -122,84 +122,6 @@ Nettus+는 여러가지 팁이나 튜토리얼 문서가 올라오는 사이트�
 <p>어떤 언어나 프레임워크나 그것을 빠르게 익히기 위해서는 Learn by Doing 하는 것이 지름길이라고 생각합니다. 그래서 그렇게 공부할 수 있는 리소스들을  추천을 해놓았구요. 좀 더 좋은 리소스와 자료들이 있으면 한국 루비 개발 생태계를 위해 공유해주시면 더 좋을 것 같습니다. 읽어주셔서 감사합니다.</p>
 
 <p><img src="http://imageshack.us/a/img689/38/6bj0.png" alt="Ruby is.." /></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Scala 스터디 회고 및 발표 자료]]></title>
-    <link href="http://flowkater.github.io/blog/2013/08/03/scala-study-resource/"/>
-    <updated>2013-08-03T17:40:00+09:00</updated>
-    <id>http://flowkater.github.io/blog/2013/08/03/scala-study-resource</id>
-    <content type="html"><![CDATA[<p>현재 <a href="https://www.facebook.com/groups/BeRubyist/">Be a Rubists</a> 스터디에서 <a href="http://bjpublic.tistory.com/158">쉽게 배워서 빨리 써먹는 스칼라 프로그래밍</a> 스칼라 스터디를 진행하고 있습니다. 관련 발표자료를 공유하고 추후 자료를 더 보강해서 계속해서 업데이트 하겠습니다. <!-- more --></p>
-
-<p>&nbsp;
-매주 스터디를 진행하면서 회고를 작성중입니다. 스터디 참여 멤버분들의 피드백과 개선점, 느낌점을 그날그날 기록하여 스터디에 반영하도록 노력하고 있습니다.
-<a href="https://github.com/flowkater/ProjectEuler_kr/tree/master/scala">스칼라 스터디 회고</a></p>
-
-<h2>스칼라 스터디 오리엔테이션 - 발표자 서병선님</h2>
-
-<script async class="speakerdeck-embed" data-id="e2608900de430130c1220eac3c9ba422" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
-
-
-<p>&nbsp;</p>
-
-<h2>스칼라 배열 사용하기 - 발표자 봉성주님</h2>
-
-<script async class="speakerdeck-embed" data-id="4352ef50de450130500d1eb25ece1fde" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
-
-
-<p>&nbsp;</p>
-
-<h2>스칼라 맵과 튜플 - 발표자 이경욱님</h2>
-
-<script async class="speakerdeck-embed" data-id="5b7d2cc0de450130c1230eac3c9ba422" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
-
-
-<p>&nbsp;</p>
-
-<h2>스칼라 클래스 - 발표자 김지원님</h2>
-
-<script async class="speakerdeck-embed" data-id="43a50850dee101300cb91a5bfdd09542" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
-
-
-<p>&nbsp;</p>
-
-<h2>스칼라 오브젝트 - 발표자 최민기님</h2>
-
-<script async class="speakerdeck-embed" data-id="7b0b7270de45013064152292094fcb41" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
-
-
-<p>&nbsp;</p>
-
-<h2>스칼라 패키지와 임포트 - 발표자 최민기님</h2>
-
-<script async class="speakerdeck-embed" data-id="8fbc7d00de4501309e464266729d3f42" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
-
-
-<p>&nbsp;</p>
-
-<h2>스칼라 상속 - 발표자 서병선님</h2>
-
-<script async class="speakerdeck-embed" data-id="aa33eb00de450130500d1eb25ece1fde" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
-
-
-<p>&nbsp;</p>
-
-<h2>스칼라 파일과 정규표현식 - 발표자 이경욱님</h2>
-
-<script async class="speakerdeck-embed" data-id="bdeac460de45013027707a89a736d299" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
-
-
-<p>&nbsp;</p>
-
-<h2>스칼라 Trait - 발표자 조재우(flowkater)</h2>
-
-<script async class="speakerdeck-embed" data-id="d341cc10de45013064162292094fcb41" data-ratio="1.33333333333333" src="http://flowkater.github.io//speakerdeck.com/assets/embed.js"></script>
-
-
-<p>&nbsp;</p>
-
-<p><em><small><a href="https://www.facebook.com/groups/BeRubyist/" title="루비스트가 되자">Be a Rubyist</a> 페이스북 그룹에서 매주 토요일 오전 10시부터 오후 1시까지 모여서 같이 스칼라 스터디를 진행중입니다. 해커톤, 알고리즘 문제 페어 프로그래밍 등 단순한 북스터디 이상으로 시행착오를 겪으면서 7개월 넘게 운영되고 있는 스터디입니다. 관심있으신 분들은 많은 참여부탁드립니다. :) </small></em></p>
 ]]></content>
   </entry>
   
