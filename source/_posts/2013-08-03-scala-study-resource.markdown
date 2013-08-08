@@ -3,7 +3,7 @@ layout: post
 title: "Scala 스터디 회고 및 발표 자료"
 date: 2013-08-03 17:40
 comments: true
-categories: Scala, Java
+categories: Scala Java
 published: true
 ---
 
@@ -26,7 +26,7 @@ published: true
 
 &nbsp;
 ## 스칼라 클래스 - 발표자 김지원님
-정리중
+<script async class="speakerdeck-embed" data-id="43a50850dee101300cb91a5bfdd09542" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 &nbsp;
 ## 스칼라 오브젝트 - 발표자 최민기님
